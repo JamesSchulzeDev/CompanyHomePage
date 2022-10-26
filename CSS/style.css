@@ -1,0 +1,207 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+
+.content {
+    height: 70px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 70px;
+    margin-right: auto;
+}
+
+.nav {
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    flex-grow: 1;
+    
+}
+
+header .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 0px 10px;
+    color: #373737;
+}
+
+.burgermenu {
+    display: none;
+
+    justify-content: right;
+}
+
+.burgermenu img {
+    width: 30px;
+    height: 30px;
+}
+.main-body {
+    margin: 0;
+}
+
+#aboutus {
+    background-image: URL(../Images/Career-Connections-1170x630.jpg.optimal.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    padding-top: 150px;
+    align-content: right;
+  }
+
+.about-tag h1 {
+    color: white;
+    background-color:#4D7EA7;
+    padding: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 30px;
+    font-size: 54px;
+    max-width: 800px;
+  }
+
+#solutions {
+    text-align: center;
+    align-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+#solutions h2 {
+    color:#4D7EA7;
+    font-size: 44px;
+}
+
+.solutions {
+    display: inline-flex;
+    max-width: 1250px;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .solution-card {
+    padding: 20px;
+  }
+
+  .quote {
+    background-color: #4D7EA7;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin:0;
+  }
+
+  .quote h3 {
+    font-size: 28px;
+    padding: 0 40px;;
+  }
+
+  .italic {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  #teams {
+    background-color: #4D7EA7;
+    text-align: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .teams {
+    display: inline-flex;
+    max-width: 1250px;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-card {
+    padding: 40px;
+    color: white;
+  }
+
+  .footer-container {
+    color: #373737; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+  }
+
+  .footer-contact {
+    margin: 0;
+    width: 460px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer-map img {
+    width: 460px;
+    height: auto;
+    flex-grow: 2;
+  }
+
+  .footerbottom{
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .quote h3 {
+        font-size: 22px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .about-tag h1 {
+        font-size: 2.5rem;
+    }
+
+    .burgermenu {
+        display: inline-block;
+    }
+
+    header .nav ul {
+        display: none;
+    }
+
+    .quote h3 {
+        font-size: 22px;
+    }
+
+    .italic {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 562px) {
+    .about-tag h1 {
+        font-size: 1.75rem;
+    }
+}
+
+  @media only screen and (max-width: 480px) {
+    .about-tag h1 {
+        font-size: 6rem;
+    }
+}
